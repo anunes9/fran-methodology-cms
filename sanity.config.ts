@@ -9,6 +9,7 @@ export default defineConfig({
   title: 'Fran Methodology Cms',
   projectId: process.env.SANITY_STUDIO_PROJECT_ID!,
   dataset: process.env.SANITY_STUDIO_PROJECT_DATASET!,
+  studioHost: 'franpadelproject',
   plugins: [
     structureTool(),
     visionTool(),
